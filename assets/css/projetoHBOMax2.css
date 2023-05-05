@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: #0F0F0F;
+        }
+
+        header{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 40px;
+        }
+        header a{
+            text-decoration: none;
+            color: white;
+            font-size: 29px;
+            font-family: 'Inter';
+            margin-top: 14px;
+            font-weight: 400;
+        }
+        header img{
+            width: 190px;
+        }
+        main{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            font-family: 'Inter';
+        }
+        main h1{
+            font-size: 53px;
+            font-weight: 700;
+            margin-bottom: 0;
+        }
+        main p{
+            font-size: 29px;
+            font-weight: 400;
+        }
+        form{
+            display:flex;
+            flex-direction: column;
+        }
+        label{
+            display: block;
+            font-size: 33px;
+            font-weight: 400;
+            margin-top: 20px;
+            margin-bottom: 22px;
+            padding-left: 12px;
+        }
+        input{
+            width: 550px;
+            height:47px;
+            background-color: #7F7F7F;
+            border-radius: 25px;
+            border: none;
+            color: white;
+            font-size:25px;
+            
+        }
+        input:not(input[type="submit"]){
+            padding-left: 20px;
+        }
+        #input1{
+            text-align: center;
+        }
+        input[type="submit"]{
+            margin-top: 45px;
+            width: 200px;
+            color: white;
+            font-size: 28px;
+            background-color: #8C77E0;
+        }
+        input[type="submit"]:hover{
+            cursor:pointer;
+        }
+        footer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            font-family: 'Inter';
+            font-weight: 400;
+        }
+        footer p{
+            font-size: 27px;
+            text-align: center;
+        }
+        footer button{
+            margin-top: 20px;
+            width: 330px;
+            height: 50px;
+            font-size: 28px;
+            border-radius: 25px;
+            color: white;
+            border: none;
+            background-color: #8C77E0;
+        }
+        footer button:hover{
+            cursor:pointer;
+        }
+        @media only screen and (max-width:650px) {
+            input{
+                width: 350px;
+            }
+            header{
+                margin-top: 20px;
+            }
+            main p{
+                margin: 29px 15px 0px 15px;
+                text-align: center;
+            }
+            main h1{
+                margin: 25px 10px 0 10px;
+            }
+
+            form{
+                margin-top: 0px;
+            }
+            footer p{
+                margin: 20px 10px 15px 10px;
+            }
+        }
