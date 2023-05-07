@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exemplo de background-clip</title>
+  <style>
+    .box {
+      width: 200px;
+      height: 200px;
+      border: 20px solid rgba(255, 0, 0, 0.5);
+      background: url("https://picsum.photos/400/400") no-repeat center;
+    }
+    
+    .box-bd {
+      background-clip: border-box;
+    }
+    
+    .box-pd {
+      background-clip: padding-box;
+    }
+  </style>
+</head>
+<body>
+  <div class="box box-bd"></div>
+  <div class="box box-pd"></div>
+</body>
+</html>
